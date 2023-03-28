@@ -1,0 +1,115 @@
+
+body {
+    text-align: center;
+    font-size: 36px;
+}
+.new-game {
+    padding: 12px 24px;
+    background-color: greenyellow;
+    color: darkolivegreen;
+    border-radius: 30px;
+    border: none;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 2px 2px 4px #000;
+    transition: all 0.3s ease-in-out;
+}
+
+.new-game:hover {
+    background-color: #fff;
+    color: #1E90FF;
+    box-shadow: 2px 2px 4px #000;
+    cursor: pointer;
+}
+.number-count {
+    display: inline-block;
+    font-size: 36px;
+    color: aqua;
+}
+
+.gamelevelheader {
+    margin: auto;
+    text-align: center;
+    display: flex;
+}
+
+.gametime {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: darkslateblue;
+    text-shadow: 1px 1px 2px #000;
+    padding-bottom: 25px;
+    
+}
+
+#timer {
+    display: inline-block;
+    margin-top: 0px;
+    padding: 10px;
+    background-color: darkcyan ;
+    border-radius: 30px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    box-shadow: 1px 1px 2px #000;
+}
+
+table,
+td {
+    font-size: 48px;
+    text-align: center;
+    margin: auto;
+    border: 4px solid black;
+    border-collapse: collapse;
+}
+
+*/ .board td {
+    text-align: center;
+    transition: 1s;
+    padding: 10px;
+}
+
+.cell {
+    font-weight: lighter;
+    text-shadow: 0px 0px 1px #000;
+    width: 80px;
+    height: 80px;
+    background-color: lightsteelblue;
+}
+
+
+
+.clicked {
+    background-color: rgb(233, 86, 86);
+}
+
+
+.level {
+    display: inline-block;
+    margin-top: 0px;
+    padding: 10px;
+    background-color: lightskyblue;
+    border-radius: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    box-shadow: 1px 1px 2px #000;
+    margin: 30px;
+    border: 2px solid black;
+}
+
+.level1 {
+
+    background-color: rgb(240, 240, 71);
+}
+.level2 {
+    background-color: rgb(132, 222, 29);
+}
+.level3 {
+    background-color: rgb(237, 38, 28);
+}
